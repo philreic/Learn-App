@@ -29,6 +29,10 @@ struct TestView: View {
             .navigationBarTitle("\(model.currentModule?.category ?? "") Test")
             
         }
+        else {
+            // Test hasn't loaded yet
+            ProgressView()
+        }
         
     }
 }
