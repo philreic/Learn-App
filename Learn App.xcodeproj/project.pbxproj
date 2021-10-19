@@ -24,6 +24,7 @@
 		5110873C271CC469002F94FC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 51108739271CC469002F94FC /* data.json */; };
 		5110873D271CC469002F94FC /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = 5110873A271CC469002F94FC /* style.html */; };
 		51108740271CC48B002F94FC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110873F271CC48B002F94FC /* Models.swift */; };
+		51E462D6271E35FC00DEA6A2 /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E462D5271E35FC00DEA6A2 /* TestResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		51108739271CC469002F94FC /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		5110873A271CC469002F94FC /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
 		5110873F271CC48B002F94FC /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		51E462D5271E35FC00DEA6A2 /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				51108724271CC3C8002F94FC /* ContentViewRow.swift */,
 				5110872B271CC3C8002F94FC /* ContentDetailView.swift */,
 				51108726271CC3C8002F94FC /* TestView.swift */,
+				51E462D5271E35FC00DEA6A2 /* TestResultView.swift */,
 				51108727271CC3C8002F94FC /* CodeTextView.swift */,
 				51108728271CC3C8002F94FC /* RectangleCard.swift */,
 			);
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51108731271CC3C8002F94FC /* HomeViewRow.swift in Sources */,
+				51E462D6271E35FC00DEA6A2 /* TestResultView.swift in Sources */,
 				5110873B271CC469002F94FC /* Constants.swift in Sources */,
 				5110872F271CC3C8002F94FC /* CodeTextView.swift in Sources */,
 				51108740271CC48B002F94FC /* Models.swift in Sources */,
