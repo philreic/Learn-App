@@ -125,8 +125,13 @@ class ContentModel: ObservableObject {
                 
                 // Append parsed modules into modules property
                 
-                self.modules += modules
-            
+                DispatchQueue.main.async {
+                    
+                    self.modules += modules
+                
+                }
+                
+               
                 }
             
             catch {
