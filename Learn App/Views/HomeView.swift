@@ -33,7 +33,8 @@ struct HomeView: View {
                                             .onAppear(perform: {
                                                 model.beginModule(module.id)
                                             }),
-                                    tag: module.id,
+                                    // add .hash to solve the problem expecting an Int instead String
+                                    tag: module.id.hash,
                                     selection: $model.currentContentSelected) {
                                     
                                         // Learning Card
@@ -47,7 +48,7 @@ struct HomeView: View {
                                             .onAppear(perform: {
                                             model.beginTest(module.id)
                                         }),
-                                    tag: module.id,
+                                    tag: module.id.hash,
                                     selection: $model.currentTestSelected) {
                                     
                                     // Test Card
